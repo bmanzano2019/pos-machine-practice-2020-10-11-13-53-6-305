@@ -13,6 +13,10 @@ public class ItemDataLoader {
         itemInfos.add(item1Info);
         itemInfos.add(item2Info);
         itemInfos.add(item3Info);
+        // added missing info based on exercise
+        itemInfos.add(new ItemInfo("ITEM000002", "Apple", 5));
+        itemInfos.add(new ItemInfo("ITEM000003", "Litchi", 15));
+        itemInfos.add(new ItemInfo("ITEM000005", "Instant Noodles", 4));
 
         return itemInfos;
     }
